@@ -1,0 +1,12 @@
+name: tf-mnist
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.6.4=0
+- pip:
+  - click==6.7
+  - requests==2.18.4
+  - tensorflow-gpu==1.5.0
+  - tqdm==4.19.5
+
